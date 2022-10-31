@@ -1,0 +1,627 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent-element{
+    display: flex;
+    width: 100%;
+    background-color: #f3f6fd;
+    height: 100%;
+}
+.parent-element .sidebar1{
+    width: 6%;
+    background-color:  #f3f6fd;
+    height: 100vh;
+}
+.parent-element .sidebar1 .logo{
+    display: flex;
+    margin-top: 90px;
+}
+.parent-element .sidebar1 .logo h5{
+    font-size: 30px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    margin-right: 6px;
+}
+.parent-element .sidebar1 .logo span{
+    color:  #ff47f3;;
+}
+.parent-element .sidebar1 .logo .logo-hr{
+    border: 1px solid  #ff47f3;;
+    margin-right: 4px;
+}
+.parent-element .sidebar1 .profile-pic{
+    width: 44%;
+    height: 5vh;
+    border: none;
+    border-radius: 100px;
+    background-color: blue;
+    background-image: url('../images/man\ \(1\).jpg');
+    background-size: cover;
+    margin-left: 15px;
+    padding-left: 10px;
+    margin-top: 450px;
+   
+}
+#vertical-line{
+    height: 90vh;
+    margin-top: 40px;
+    border: 1px solid #e3e3e4;
+}
+.parent-element .sidebar2{
+    width: 20%;
+    height: 100vh;
+}
+.parent-element .sidebar2 .text1{
+    margin-top: 40px;
+    padding: 0 10px;
+}
+.parent-element .sidebar2 .text1 ul li{
+    list-style: none;
+     padding-bottom: 20px; 
+}
+.parent-element .sidebar2 .text1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.parent-element .sidebar2 .text1 .project{
+    color:   #ff47f3;;
+}
+.parent-element .sidebar2 .text1 a:hover{
+    color:  #ff47f3;;
+}
+.parent-element .sidebar2 .text2{
+    margin-top: 300px;
+    margin-bottom: 40px;
+    padding: 0 10px;
+}
+.parent-element .sidebar2 .text2 ul li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.parent-element .sidebar2 .text2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+.parent-element .sidebar2 .text2 a:hover{
+    color: #adb1bc;
+}
+.parent-element .sidebar2 .text2 .request{
+    color: #adb1bc;
+}
+.parent-element .main-body{
+    width: 74%;
+    background-color: white;
+    border-radius: 30px 0 0 30px;
+    height: 100vh;
+    padding: 10px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-body .navbar{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.main-body .navbar .dh{
+    font-size: 34px;
+     color: #adb1bc; 
+     margin-top: 15px;
+     font-family: 'Times New Roman', Times, serif;
+}
+.main-body .navbar-items{
+    display: flex;
+    
+}
+.main-body .navbar-items .icon1{
+    width: 22%;
+    height: 4vh;
+    background-color: #f3f6fd;
+    margin-right: 8px;
+    border-radius: 6px;
+}
+.main-body .navbar-items .icon2{
+    width: 22%;
+    height: 4vh;
+    background-color: #f3f6fd;
+    margin-right: 8px;
+    border-radius: 6px;
+}
+.main-body .navbar-items .icon3{
+    width: 22%;
+    height: 4vh;
+    background-color: #f3f6fd;
+    margin-right: 12px;
+    border-radius: 6px;
+}
+.main-body .navbar-items input{
+    width: 95%;
+    height: 4vh;
+    background-color: #f3f6fd;
+    border: none;
+    border-radius: 12px;
+    padding: 5px 10px;
+}
+.main-body .project{
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #26324c;
+}
+.main-body .project-info{
+    display: flex;
+    width: 100%;
+    height: 28vh;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.main-body .project-info .box1{
+    width: 40%;
+    height: 24vh;
+    background-color: #f3f6fd;
+    border-radius: 40px;
+    border: 2px solid #e7eaf1;
+    padding: 20px 20px;
+    position: relative;
+}
+.main-body .project-info .box1 .img1{
+    background-color: #ff47f3;
+    background-image: url('../images/guy.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 10%;
+    height: 5vh;
+    border: none;
+    border-radius: 100px;
+}
+.main-body .project-info .box1 .img2{
+    background-color: #5d70f3;
+    background-image: url('../images/lady.jpg');
+    background-position: right;
+    background-size: cover;
+    width: 9%;
+    height: 5vh;
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+    top: 20px;
+    left: 48px;
+}
+.main-body .project-info .box1 .img3{
+    background-color: #adb1bc;
+    background-image: url('../images/man\ \(1\).jpg');
+    background-size: cover;
+    width: 9%;
+    height: 5vh;
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+    top: 20px;
+    right: 250px;
+}
+.main-body .project-info .box1 .box1cir{
+    background-color: #ff47f3;
+    width: 11%;
+    height: 6vh;
+    border: none;
+    border-radius: 100px;
+    margin-right: 20px;
+    position: absolute;
+    left: 270px;
+    top: -25px;
+    box-shadow: 0px 20px 26px 0px #ff47f3;
+}
+.main-body .project-info .box1 .text1{
+    margin-top: 15px;
+}
+.main-body .project-info .box1 h4{
+    font-size: 30px;
+    color:  #26324c;
+    margin-bottom: 10px;
+}
+.main-body .project-info .box1 p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #adb1bc;
+}
+.main-body .project-info .box2{
+    width: 40%;
+    height: 24vh;
+    background-color: #f3f6fd;
+    border-radius: 40px;
+    border: 2px solid #e7eaf1;
+    padding: 20px 20px;
+    position: relative;
+}
+.main-body .project-info .box2 .img1{
+    background-color: #ff47f3;
+    background-image: url('../images/guy.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 10%;
+    height: 5vh;
+    border: none;
+    border-radius: 100px;
+}
+.main-body .project-info .box2 .img2{
+    background-color: #5d70f3;
+    background-image: url('../images/lady.jpg');
+    background-position: right;
+    background-size: cover;
+    width: 9%;
+    height: 5vh;
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+    top: 20px;
+    left: 48px;
+}
+.main-body .project-info .box2 .img3{
+    background-color: #adb1bc;
+    background-color: #adb1bc;
+    background-image: url('../images/man\ \(1\).jpg');
+    background-size: cover;
+    width: 9%;
+    height: 5vh;
+    border: none;
+    border-radius: 100px;
+    position: absolute;
+    top: 20px;
+    right: 250px;
+}
+.main-body .project-info .box2 .text2{
+    margin-top: 15px;
+}
+.main-body .project-info .box2 h4{
+    font-size: 30px;
+    color:  #26324c;
+    margin-bottom: 10px;
+}
+.main-body .project-info .box2 p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #adb1bc;
+}
+.main-body .project-info .box2 .box2cir{
+    background-color: #5d70f3;
+    width: 11%;
+    height: 6vh;
+    border: none;
+    border-radius: 100px;
+    margin-right: 20px;
+    position: absolute;
+    left: 270px;
+    top: -25px;
+    box-shadow: 0px 24px 28px 0px #5d70f3; 
+}
+.main-body .project-info .box3{
+    width: 12%;
+    height: 24vh;
+    background-color: white;
+    border-radius: 40px;
+    border: 2px solid #e7eaf1;
+}
+.main-body .h-line{
+    border: 1px solid #f6f6f6;
+}
+.main-body .project-detail{
+    width: 100%;
+    height: 40vh;
+    margin-top: 25px;
+    padding-top: 30px;
+}
+.main-body .project-detail .detail-1{
+    width: 100%;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 10px;
+}
+.main-body .project-detail .detail-1 .detail-1text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 19px;
+    font-weight: bold;
+}
+.main-body .project-detail .detail-1 .detail-1text .title{
+    width: 100%;
+    margin-right: 0px;
+    color: #9194a3;
+}
+.main-body .project-detail .detail-2{
+    background-color: #e7ebf3;
+    width: 100%;
+    height: 7vh;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.main-body .project-detail .detail-2 .two{
+     display: flex;
+     align-items: center;
+     width: 100%;
+     font-size: 11px;
+     font-weight: bold;
+    
+}
+.main-body .project-detail .detail-2 .two .date{
+    width: 22%;
+    display: flex;
+    align-items: center;
+ 
+}
+.main-body .project-detail .detail-2 .two .date .symbol1{
+    width: 14%;
+    height: 4vh;
+   background-color: #aefacd;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.main-body .project-detail .detail-2 .two .titles{
+    width: 22%;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+.main-body .project-detail .detail-2 .two .titles .symbol2{
+    width: 14%;
+    height: 4vh;
+   background-color: #9d47ff;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.main-body .project-detail .detail-2 .two .status{
+    width: 7%;
+    height: 3.5vh;
+    background-color: #d6dbee;
+     border: none;
+     border-radius: 10px;
+     padding: 5px 5px;
+     margin-left: 24px;
+}
+.main-body .project-detail .detail-2 .two .status .text3{
+    color: #9194a3;
+}
+.main-body .project-detail .detail-2 .two .assignee{
+    width: 22%;
+    margin-left: 153px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+.main-body .project-detail .detail-2 .two .assignee .img1{
+    width: 14%;
+    height: 4vh;
+    margin-right: 10px;
+    background-image: url('../images/lady.jpg');
+    background-size: cover;
+    background-position: right;
+    border-radius: 20px;
+}
+.main-body .project-detail .detail-3{
+    background-color: white;
+    width: 100%;
+    height: 7vh;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.main-body .project-detail .detail-3 .two{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 11px;
+    font-weight: bold;
+   
+}
+.main-body .project-detail .detail-3 .two .date{
+   width: 22%;
+   display: flex;
+   align-items: center;
+
+}
+.main-body .project-detail .detail-3 .two .date .symbol1{
+   width: 14%;
+   height: 4vh;
+  background-color: #fde4c1;
+   border: none;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+.main-body .project-detail .detail-3 .two .titles{
+   width: 22%;
+   display: flex;
+   align-items: center;
+   margin-left: 24px;
+}
+.main-body .project-detail .detail-3 .two .titles .symbol2{
+   width: 14%;
+   height: 4vh;
+  background-color: #ff47f3;
+   border: none;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+.main-body .project-detail .detail-3 .two .status{
+   width: 9%;
+   height: 3.5vh;
+   background-color: #c7d9fd;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 6px;
+    margin-left: 22px;
+}
+.main-body .project-detail .detail-3 .two .status .text3 p{
+    font-size: 10px;
+    color: #757fee;
+}
+.main-body .project-detail .detail-3 .two .assignee{
+   width: 22%;
+   margin-left: 136px;
+   height: 5vh;
+   display: flex;
+   align-items: center;
+}
+.main-body .project-detail .detail-3 .two .assignee .img1{
+   width: 14%;
+   height: 4vh;
+   margin-right: 10px;
+   background-image: url('../images/man\ \(1\).jpg');
+   background-size: cover;
+   border-radius: 20px;
+}   
+.main-body .project-detail .detail-4{
+    background-color: #e7ebf3;
+    width: 100%;
+    height: 7vh;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.main-body .project-detail .detail-4 .two{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 11px;
+    font-weight: bold;
+   
+}
+.main-body .project-detail .detail-4 .two .date{
+   width: 22%;
+   display: flex;
+   align-items: center;
+
+}
+.main-body .project-detail .detail-4 .two .date .symbol1{
+   width: 14%;
+   height: 4vh;
+  background-color: #fabec6;
+   border: none;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+.main-body .project-detail .detail-4 .two .titles{
+   width: 22%;
+   display: flex;
+   align-items: center;
+   margin-left: 24px;
+}
+.main-body .project-detail .detail-4 .two .titles .symbol2{
+   width: 14%;
+   height: 4vh;
+  background-color: #ff47f3;
+   border: none;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+.main-body .project-detail .detail-4 .two .status{
+   width: 5%;
+   height: 3.5vh;
+   background-color: #ceffe0;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 6px;
+    margin-left: 24px;
+}
+.main-body .project-detail .detail-4 .two .status .text3{
+    color: #399468;
+}
+.main-body .project-detail .detail-4 .two .assignee{
+   width: 22%;
+   margin-left: 170px;
+   height: 5vh;
+   display: flex;
+   align-items: center;
+}
+.main-body .project-detail .detail-4 .two .assignee .img1{
+   width: 14%;
+   height: 4vh;
+   margin-right: 10px;
+   background-image: url('../images/guy.jpg');
+   background-size: cover;
+   background-position: center;
+   border-radius: 20px;
+}   
+.main-body .project-detail .detail-5{
+    background-color: white;
+    width: 100%;
+    height: 7vh;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.main-body .project-detail .detail-5 .two{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 11px;
+    font-weight: bold;
+   
+}
+.main-body .project-detail .detail-5 .two .date{
+   width: 22%;
+   display: flex;
+   align-items: center;
+
+}
+.main-body .project-detail .detail-5 .two .date .symbol1{
+   width: 14%;
+   height: 4vh;
+  background-color:  #fde4c1;
+   border: none;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+.main-body .project-detail .detail-5 .two .titles{
+   width: 22%;
+   display: flex;
+   align-items: center;
+   margin-left: 24px;
+}
+.main-body .project-detail .detail-5 .two .titles .symbol2{
+   width: 14%;
+   height: 4vh;
+  background-color: #ff47f3;
+   border: none;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+.main-body .project-detail .detail-5 .two .status{
+   width: 7%;
+   height: 3.5vh;
+   background-color: #d6dbee;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-left: 24px;
+}
+.main-body .project-detail .detail-5 .two .status .text3{
+    color: #9194a3;
+}
+.main-body .project-detail .detail-5 .two .assignee{
+   width: 22%;
+   margin-left: 153px;
+   height: 5vh;
+   display: flex;
+   align-items: center;
+}
+.main-body .project-detail .detail-5 .two .assignee .img1{
+   width: 14%;
+   height: 4vh;
+   margin-right: 10px;
+   background-image: url('../images/girl.jpg');
+   background-size: cover;
+   background-position: center;
+   border-radius: 20px;
+}   
